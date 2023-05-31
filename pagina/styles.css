@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#contenido {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 300px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+#datos-enviados {
+  margin-top: 20px;
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+#datos-enviados p {
+  margin-bottom: 10px;
+}
+
+#datos-enviados strong {
+  font-weight: bold;
+}
+
+
+
+
+
+/*Carrousel */
+#inicio .carousel {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+#carousel-img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+/*Pestaña destinos */
+
+#destinos h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#destinos p {
+  color: #666;
+  font-size: 16px;
+}
+
+#destinos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#destinos li {
+  margin-bottom: 20px;
+}
+
+#destinos h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#destinos img {
+  max-width: 100%;
+  height: 440px;
+  margin-bottom: 10px;
+}
+
+#destinos p {
+  color: #666;
+  font-size: 16px;
+}
+
+
+#contenidos {
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Pestaña contacto */
+
+
+#contacto h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#formulario-contacto label {
+  display: block;
+  margin-top: 10px;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+  width: 300px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#formulario-contacto input[type="submit"] {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+#contactos {
+  margin: 20px;
+}
