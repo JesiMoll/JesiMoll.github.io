@@ -26,5 +26,5 @@ document.getElementById('formulario-contacto').addEventListener('submit', functi
     emailError.textContent = 'Por favor, ingresa un email válido.';
   }
 
-  // Aquí puedes agregar más código para realizar acciones adicionales, como enviar los datos del formulario o mostrar mensajes de éxito, etc.
+  
 });
