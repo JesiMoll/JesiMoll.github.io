@@ -5,6 +5,34 @@ body {
   color: #000000;
 }
 
+.izquierda a,
+.derecha a {
+  position: absolute;
+  margin-top: 265px;
+  margin-left: 645px;
+  cursor: pointer;
+}
+
+.derecha a {
+  margin-left: 997px;
+}
+
+.izquierda img,
+.derecha img {
+  width: 40px;
+  height: 40px;
+}
+
+.carrusel img {
+  width: 400px;
+  height: 250px;
+}
+.contenedorTitulo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .background-image {
   position: fixed;
   top: 0;
@@ -24,26 +52,26 @@ header {
   color: #fff;
   padding: 10px;
   text-align: center;
-  
+
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+
 }
 
 nav ul li {
   display: inline;
   margin-right: 10px;
-  
+
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  
+
 }
 
 #contenido {
@@ -68,7 +96,7 @@ nav ul li a {
   transition: background-color 0.3s ease;
   text-align: center;
   margin-top: 50px;
- 
+
 }
 
 .mi-boton:hover {
@@ -106,7 +134,7 @@ nav ul li a {
 
 .collage img:hover {
   transform: scale(1.1);
- 
+
 }
 
 .collage figcaption {
@@ -126,6 +154,7 @@ nav ul li a {
 .collage figure:hover figcaption {
   opacity: 1;
 }
+
 /*colagge */
 
 section {
@@ -147,7 +176,7 @@ h2 {
 h3 {
   color: #000000;
   text-align: center;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h4 {
@@ -162,7 +191,8 @@ form label {
   margin-top: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 300px;
   padding: 5px;
   margin-top: 5px;
@@ -202,8 +232,8 @@ form input, form textarea {
 #carousel-img {
   width: 100%;
   height: auto;
- 
-  
+
+
 }
 
 
@@ -211,7 +241,8 @@ img {
   border-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
   border-image-slice: 1;
   border-image-repeat: stretch;
-  border-image-width: 0 0 100px 0; /* Cambia el valor 10px según el tamaño deseado del degradado */
+  border-image-width: 0 0 100px 0;
+  /* Cambia el valor 10px según el tamaño deseado del degradado */
   border-radius: 10px;
 }
 

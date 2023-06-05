@@ -3,7 +3,7 @@ document.getElementById('formulario-contacto').addEventListener('submit', functi
   event.preventDefault(); // Evitar que el formulario se envíe normalmente
   
   var form = event.target;
-  var nombre = form.nombre.value;
+  var nombre = form.nombre.value; 
   var email = form.email.value;
   var mensaje = form.mensaje.value;
 
