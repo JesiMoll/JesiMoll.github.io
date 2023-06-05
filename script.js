@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // DOMCONTENT funciona para dar un loaded antes de que cargue la imagenes
+  // DOMCONTENT funciona para dar un loaded antes de que cargue la imagenes IMPORTANTE TENERLO
   const carouselImages = [
-    "Imagen1.jpeg",
-    "Imagen2.jpeg",
-    "Imagen3.jpeg"
+    "imagenes/Imagen1.jpeg",
+    "imagenes/Imagen2.jpeg",
+    "imagenes/Imagen3.jpeg"
   ];
   const carouselImgElement = document.getElementById("carousel-img");
 

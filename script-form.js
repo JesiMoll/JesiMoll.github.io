@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function() {
 document.getElementById('formulario-contacto').addEventListener('submit', function(event) {
   event.preventDefault(); // Evitar que el formulario se envíe normalmente
   
@@ -26,5 +26,20 @@ document.getElementById('formulario-contacto').addEventListener('submit', functi
     emailError.textContent = 'Por favor, ingresa un email válido.';
   }
 
-  
+  // Mostrar información enviada
+  var infoEnviadaDiv = document.getElementById('info-enviada');
+  infoEnviadaDiv.textContent = 'Información enviada:\n\n';
+  infoEnviadaDiv.textContent += 'Nombre: ' + nombre + '\n';
+  infoEnviadaDiv.textContent += 'Email: ' + email + '\n';
+  infoEnviadaDiv.textContent += 'Mensaje: ' + mensaje;
+  infoEnviadaDiv.classList.remove('hidden'); // Mostrar el elemento
+
+  // Restablecer el formulario
+  form.reset();
+});
+
+function isValidEmail(email) {
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
 });
